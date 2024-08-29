@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.nav-con {
+  padding: 26px 170px;
+  border: 0.5px solid #B8B6B6;
+}
+
+@media (max-width: 500px) {
+  .nav-con{
+    padding: 16px 16px;
+  }
+  .nav-lon {
+    display: flex;
+    gap: 15px;
+  }
+  .tnav-co a {
+    font-size: 100px;
+    font-weight: 500;
+  }
+}
+
+.inner-nav {
+  width: 310px;
+}
+
+.inner-nav a {
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.homepage-con {
+  padding: 65px 170px;
+}
+
+@media (max-width: 500px) {
+  .homepage-con {
+    padding: 20px 16px;
+  }
+}
+
+
+
+.page-con {
+  gap: 129px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media (max-width: 500px) {
+  .page-con {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.home-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Signika Negative", sans-serif;
+  color: #292929;
+  line-height: 61.6px;
+}
+
+.home-text span {
+  font-family: "Signika Negative", sans-serif;
+  color: #974fd0;
+}
+.home-text p {
+  font-size: 24px;
+  font-family: "Signika Negative", sans-serif;
+  line-height: 29.57px;
+  font-weight: 400;
+  color: #737171;
+}
+
+.home-text a {
+  text-decoration: none;
+  color: #faf9fb;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .home-text a {
+    
+  }
+}
+
+
+.home-a {
+  width: 201px;
+  height: 50px;
+  top: 493px;
+  left: 172px;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 10px 25px 10px 25px;
+  background-color: #974fd0;
+  line-height: 29.57px;
+}
+
+
+/* // ===================================================== MY TASKS PAGE==================== */
+
+
+.alltasks-con {
+  padding: 0 170px;
+}
+
+.my-tasks {
+  margin-top: 53px;
+}
+
+.my-tasks h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60.16px;
+  font-family: "Signika Negative", sans-serif;
+  color: #292929;
+}
+
+.my-tasks a {
+  width: 177px;
+  text-decoration: none;
+}
+
+.my-tasks p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #974fd0;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.tasks-content {
+  margin-top: 53px;
+  border: 0.5px solid #B8B6B6;
+  border-radius: 10px;
+}
+
+.tasks-content hr {
+  margin: 0 12px;
+}
+
+.inner-tak {
+  margin: 20px 12px;
+}
+
+.tak-p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #F38383;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.tasks-but a {
+  background-color: #974fd0;
+  gap: 10px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.tasks-but a p {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  line-height: 29.57px;
+}
+
+.tasks-but button {
+  /* background-color: transparent; */
+  padding: 10px 25px;
+  border: 1px solid #974fd0;
+  border-radius: 8px;
+  gap: 10px;
+  background-color: #faf9fb;
+}
+
+.tasks-but button p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #974fd0;
+  font-family: "Signika Negative", sans-serif;
+  line-height: 29.57px;
+  
+}
+
+.task-detail {
+  margin: 13px 12px;
+}
+
+.task-detail h3 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.task-detail p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #737171;
+  font-family: "Signika Negative", sans-serif;
+  line-height: 29.57px;
+  text-align: left;
+}
+
+.bk-top a {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+  color: #974fd0;
+
+}
+
+
+/* ========================================= */
+
+
+
+.newt-con {
+  padding: 65px 170px;
+}
+
+/* @media (max-width: 500px) {
+  /* .newt-con {
+    padding: 16px 40px;
+  }
+  .back-to1 {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+  } */
+ */
+
+.back-to1 h2 {
+    font-weight: 500;
+    line-height: 61.6px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 50px;
+}
+
+.newt-con form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.title-new label, .describe-new label, .tag-new h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-family: "Signika Negative", sans-serif;
+  /* line-height: 36.96px; */
+  top: -23px;
+  background-color: white;
+  left: 50px;
+}
+
+.title-new input, .describe-new textarea {
+  border: 1px solid #B8B6B6;
+  /* font-size: 50px; */
+}
+
+.title-new input::placeholder, .describe-new textarea::placeholder {
+  font-size: 22px;
+  font-weight: 400;
+  color: #cccccc;
+  font-family: "Signika Negative", sans-serif;
+  line-height: 27.1px;
+}
+
+.tag-new {
+  border: 1px solid #B8B6B6;
+}
+
+.tag-new div p {
+  background-color: #9c9c9c;
+  color: #cccccc;
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.newt-form button {
+  background-color: #974fd0;
+  border: none;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+
+/* ================================================ */
+
+
+
+.editt-con {
+  padding: 65px 170px;
+}
+
+.back-to2 h2 {
+    font-weight: 500;
+    line-height: 61.6px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 50px;
+}
+
+.editt-con form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.title-edit label, .describe-edit label, .tag-edit h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-family: "Signika Negative", sans-serif;
+  /* line-height: 36.96px; */
+  top: -23px;
+  background-color: white;
+  left: 50px;
+}
+
+.title-edit input, .describe-edit textarea {
+  border: 1px solid #B8B6B6;
+  /* font-size: 50px; */
+}
+
+.title-edit input::placeholder, .describe-edit textarea::placeholder {
+  font-size: 22px;
+  font-weight: 400;
+  color: #cccccc;
+  font-family: "Signika Negative", sans-serif;
+  line-height: 27.1px;
+}
+
+.tag-edit {
+  border: 1px solid #B8B6B6;
+}
+
+.tag-edit div p {
+  background-color: #292929;
+  color: #cccccc;
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.editt-form button {
+  background-color: #974fd0;
+  border: none;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+.home-img {
+  width: 420px;
+  height: 400px;
+
+}
+
+
+/* 
+.illu {
+  opacity: 1;
+}
+
+.illu.change {
+  opacity: 0;
+} */
