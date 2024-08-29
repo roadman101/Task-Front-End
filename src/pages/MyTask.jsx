@@ -58,7 +58,7 @@ const MyTask = ( { baseURL } ) => {
             return  (
                 <div className='tasks-content' key={_id}>
             <div className='inner-tak d-flex justify-content-between align-items-end'>
-                <p className='m-0 tak-p'>{tag}</p>
+                <p style={{ color: tagColor }}  className='m-0 tak-p'>{tag}</p>
                 <div className='tasks-but d-flex gap-4'>
                     <Link to={`/edit/${Task._id}`} className='d-flex align-items-center justify-content-center'>
                         <img className='' src={editIcon}  alt="" />
