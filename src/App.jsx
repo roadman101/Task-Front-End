@@ -12,7 +12,7 @@ import { Toaster } from 'react-hot-toast';
 function App() {
 
   // Base URL for API requests from our backend. 
-  const baseURL = "https://task-manager-backend-cwx0.onrender.com";
+  const baseURL = "https://task-manager-backend-2-xxza.onrender.com";
 
 
   // const [count, setCount] = useState(0)
